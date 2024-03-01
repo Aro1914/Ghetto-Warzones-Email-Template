@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+        <title>Ghetto Warzones</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                flex-wrap: wrap;
+            }
+
+            body {
+                background: #ffffff !important;
+            }
+
+            button {
+                cursor: pointer !important;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            .topPart {
+                margin: 0 auto;
+                position: relative;
+                background: #ffffff !important;
+                width: 100%;
+                max-width: 600px;
+                border: none;
+                border-radius: 10px;
+            }
+
+            .darkTop {
+                border: none;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                padding: 16px 44px;
+            }
+
+            .separator {
+                width: 100%;
+                height: auto;
+            }
+
+            .ghettoLogo {
+                width: 128px;
+                height: 70px;
+                margin-bottom: 50px;
+            }
+
+            .bottomPart {
+                width: 100%;
+                border: none;
+                padding: 0 60px 36px 60px
+            }
+
+            .firstWrapper {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                width: 100%;
+            }
+
+            .bannerCon {
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .banner {
+                width: 100%;
+                height: auto;
+            }
+
+            .shadowBox {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                gap: 24px;
+                flex-wrap: wrap;
+                padding-bottom: 36px;
+                /* Shadow/shadow-xl */
+            }
+
+            .title {
+                font-family: "Inter";
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 39px;
+                letter-spacing: 0px;
+                text-align: left;
+            }
+
+            .emailMessage {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+                text-align: left;
+            }
+
+            .salutation,
+            .message {
+                font-family: "Inter";
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0px;
+                text-align: left;
+            }
+
+            .actionButton {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                width: 480px;
+                height: 59px;
+                padding: 20px, 22px, 20px, 22px;
+                border-radius: 60px;
+                gap: 8px;
+                text-decoration: none;
+                font-family: "Inter";
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 19px;
+                letter-spacing: 0px;
+                text-align: center;
+                color: #fff;
+                background: #000000;
+            }
+
+            .footer {
+                width: 100%;
+                padding: 36px, 60px, 36px, 60px;
+                gap: 16px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .footerBannerCon {
+                width: 100%;
+                justify-content: flex-start;
+                align-items: center;
+                flex-wrap: wrap;
+                display: flex;
+                padding: 50px 0 0;
+            }
+
+            .footerBanner {
+                width: 128px;
+                height: 20px;
+                object-fit: cover;
+                object-position: bottom;
+            }
+
+            .footerMessage {
+                display: flex;
+                width: 100%;
+                text-align: left;
+                font-family: "Inter";
+                font-size: 11px;
+                font-weight: 400;
+                line-height: 13px;
+                letter-spacing: 0px;
+                text-align: left;
+            }
+
+            .link {
+                color: #000 !important;
+                text-decoration: underline !important;
+            }
+
+            .socials {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 20px;
+            }
+
+            .socialLink {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .social,
+            .path {
+                width: 20px;
+                height: 20px;
+            }
+
+            /* -----------------Media-Queries---------------------- */
+            @media only screen and (max-width: 480px) {}
+        </style>
+    </head>
+
+    <body>
+        <div class="topPart">
+            <div class="darkTop">
+                <img class="ghettoLogo"
+                    src="https://warzones.ghettopigeon.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgplogo.b5b9bf33.png&w=1200&q=75"
+                    alt="Ghetto Logo" />
+                <svg class="separator" width="550" height="23" viewBox="0 0 550 23" fill="black"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="550" height="23" fill="url(#pattern0)" />
+                    <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_373_57"
+                                transform="scale(0.000909091 0.0217391)" />
+                        </pattern>
+                        <image id="image0_373_57" width="1100" height="46" xlink:href="data:image/png;base64,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" />
+                    </defs>
+                </svg>
+            </div>
+            <div class="bottomPart">
+                <div class="firstWrapper">
+                    <div class="bannerCon">
+                        <img src="https://warzones.ghettopigeon.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpigeon.1e23c567.png&w=640&q=75"
+                            alt="Mascot" class="banner" />
+                    </div>
+                    <div class="shadowBox">
+                        <h1 class="title">Here is the title of the ghetto pigeons emails</h1>
+                        <div class="emailMessage">
+                            <span class="salutation">Hi Labs,</span>
+                            <span class="message">It is a long established fact that a reader will be distracted by the
+                                readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+                                that it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                                here, content here', making it look like readable English.</span>
+                        </div>
+                        <a class="actionButton" target="_blank" href="https://warzones.ghettopigeon.com"><span>Action
+                                Button</span></a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="footerBannerCon">
+                        <img src="https://warzones.ghettopigeon.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgplogo.b5b9bf33.png&w=1200&q=75"
+                            alt="GP Logo" class="footerBanner" />
+                    </div>
+                    <span class="footerMessage">Please do not reply directly to this email. This was sent from an
+                        address that cannot accept responses. For questions or assistance, visit our <a class="link"
+                            href="mailto:admin@ghettopigeon.com">Help Center</a>.</span>
+                    <span class="footerMessage">© 2023 GhettoPigeons LLC. All rights reserved.</span><span
+                        class="footerMessage"><a class="link" target="_blank"
+                            href="https://warzones.ghettopigeon.com">Unsubscribe</a></span><span
+                        class="footerMessage">Find us here:</span>
+                    <div class="socials">
+                        <a target="_blank" href="https://discord.gg/wGWTEtRyUz" class="socialLink">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px"
+                                viewBox="0 0 24 24" xml:space="preserve">
+                                <path
+                                    d="M18.942 5.556a16.299 16.299 0 0 0-4.126-1.297c-.178.321-.385.754-.529 1.097a15.175 15.175 0 0 0-4.573 0 11.583 11.583 0 0 0-.535-1.097 16.274 16.274 0 0 0-4.129 1.3c-2.611 3.946-3.319 7.794-2.965 11.587a16.494 16.494 0 0 0 5.061 2.593 12.65 12.65 0 0 0 1.084-1.785 10.689 10.689 0 0 1-1.707-.831c.143-.106.283-.217.418-.331 3.291 1.539 6.866 1.539 10.118 0 .137.114.277.225.418.331-.541.326-1.114.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595c.415-4.396-.709-8.209-2.973-11.589zM8.678 14.813c-.988 0-1.798-.922-1.798-2.045s.793-2.047 1.798-2.047 1.815.922 1.798 2.047c.001 1.123-.793 2.045-1.798 2.045zm6.644 0c-.988 0-1.798-.922-1.798-2.045s.793-2.047 1.798-2.047 1.815.922 1.798 2.047c0 1.123-.793 2.045-1.798 2.045z" />
+                            </svg>
+                        </a>
+                        <a target="_blank" href="https://twitter.com/ghettopigeons" class="socialLink">
+                            <svg class="social" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0_373_70" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0"
+                                    y="1" width="20" height="18">
+                                    <path d="M0 1H20V19H0V1Z" fill="white" />
+                                </mask>
+                                <g mask="url(#mask0_373_70)">
+                                    <path
+                                        d="M15.6761 1.225H18.6841L12.1141 8.659L19.8431 18.775H13.7901L9.05006 12.64L3.62606 18.775H0.618056L7.64506 10.824L0.232056 1.224H6.43706L10.7221 6.832L15.6771 1.224L15.6761 1.225ZM14.6211 16.993H16.2871L5.53106 2.913H3.74306L14.6211 16.993Z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
